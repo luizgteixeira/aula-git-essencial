@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
+h1, h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(223, 223, 75);
+    color: rgb(20, 13, 2);
+    padding: 6px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.432);
+}
+
+p{
+    font-size: 1.1em;
+    color: brown;
+    text-align: justify;
+    text-indent: 6px;
+    padding: 6px;
+    margin: 0 auto;
+}
+
+p::first-letter {
+  /* CSS properties go here */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+  font-size: 2em;
+}
