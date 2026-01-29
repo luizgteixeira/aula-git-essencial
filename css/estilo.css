@@ -13,7 +13,12 @@ h1, h2{
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.432);
 }
 
-p{
+section.paragrafo{
+    width: 800px;
+    margin: auto;
+}
+
+section.paragrafo > p{
     font-size: 1.1em;
     color: brown;
     text-align: justify;
@@ -22,7 +27,7 @@ p{
     margin: 0 auto;
 }
 
-p::first-letter {
+section.paragrafo >p::first-letter {
   /* CSS properties go here */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: red;
